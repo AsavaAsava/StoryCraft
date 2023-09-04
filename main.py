@@ -35,6 +35,8 @@ questions = [
     "Do you have a special talent or hobby? Let's find a story about a character who shares that interest!",
     "Is there a superhero you admire? Let's explore stories featuring heroes like them.",
     "How do you feel today? Let's choose a story that matches your mood or helps you feel better.",
+    "Are you a boy or a girl?",
+    "What's your favorite colour?",
 ]
 
 # Define options for each question
@@ -44,6 +46,8 @@ options = [
     ["Drawing 🎨", "Dancing 💃", "Playing soccer ⚽", "Singing 🎤", "Building with blocks 🧱"],
     ["Spider-Man 🕷️", "Wonder Woman 🌟", "Batman 🦇", "Elsa from Frozen ❄️", "Iron Man 🦾"],
     ["Happy 😃", "Sad 😢", "Excited 🤩", "Calm 😌", "Curious 🤔"],
+    ["boy", "girl", "prefer not to say"],
+    ["Blue", "Black", "white", "pink", "yellow", "green", "red", "purple", "orange", "brown", "grey", "other"],
 ]
 
 # Create placeholders for selected answers
