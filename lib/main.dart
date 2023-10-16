@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:storycraft/screens/auth/login_auth.dart';
 import 'package:storycraft/screens/homescreen.dart';
 
 void main() {
@@ -24,8 +25,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         scaffoldBackgroundColor: const Color(0xFFfefffe),
       ),
-      themeMode: ThemeMode.dark,
-      home: const HomeScreen(),
+      themeMode: ThemeMode.light,
+      home: const LoginScreen(),
     );
   }
 }

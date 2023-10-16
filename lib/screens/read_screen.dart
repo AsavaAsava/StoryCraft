@@ -85,7 +85,7 @@ class _ReadStoryScreenState extends State<ReadStoryScreen> {
                     },
                   ),
                   SizedBox(
-                    height: MediaQuery.of(context).size.height * 0.7,
+                    height: MediaQuery.of(context).size.height * 0.9,
                     child: PageFlipWidget(
                       key: _controller,
                       backgroundColor: Colors.white,
