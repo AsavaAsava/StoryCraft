@@ -23,7 +23,7 @@ class Score_data_handler():
                 'child_id': child_id,
                 'score': 3
             })
-
+    #Get score from firestore
     def current_score(child_id):
         doc_ref = scores_collection.documents(child_id).get()
         score_value = doc_ref.to_dict()['score']
