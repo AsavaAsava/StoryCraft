@@ -14,10 +14,8 @@ os.environ["REPLICATE_API_TOKEN"] = keys.REPLICATE_API_TOKEN
 # os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = keys.GOOGLE_APPLICATION_CREDENTIALS
 
 app = Flask(__name__)
+
 CORS(app, resources={r"/*": {"origins": "http://35.245.192.14"}})
-
-
-CORS(app)
 
 @app.route('/', methods=['GET'])  # To check if the server is running
 def test():
