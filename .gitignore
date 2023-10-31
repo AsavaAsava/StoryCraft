@@ -1,6 +1,7 @@
 keys.py
 app.yaml
 .gcloudignore
+story_narrations/
 utils/keys.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
