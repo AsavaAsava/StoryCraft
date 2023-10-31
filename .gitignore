@@ -2,6 +2,7 @@ keys.py
 app.yaml
 deploy/
 .gcloudignore
+story_narrations/
 utils/keys.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
