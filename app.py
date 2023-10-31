@@ -15,6 +15,8 @@ os.environ["REPLICATE_API_TOKEN"] = keys.REPLICATE_API_TOKEN
 
 app = Flask(__name__)
 
+CORS(app)
+
 CORS(app, resources={r"/*": {"origins": "http://35.245.192.14"}})
 
 @app.route('/', methods=['GET'])  # To check if the server is running
