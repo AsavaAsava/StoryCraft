@@ -10,7 +10,7 @@ var flipbookEL = document.getElementById('flipbook');
 var moreAction = document.getElementById('moreOptions');
 let phrase = "";
 let pageIndex = 1;
-const BASE_URL = 'http://127.0.0.1:5000/';
+const BASE_URL = 'http://68.183.208.56:5000/';
 let dataArray = [];
 let recorder;
 let audioIN = { audio: true }

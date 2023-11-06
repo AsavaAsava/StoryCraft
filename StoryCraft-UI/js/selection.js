@@ -1,4 +1,4 @@
-const BASE_URL = 'http://127.0.0.1:5000/';
+const BASE_URL = 'http://68.183.208.56:5000/';
 
 let slideIndex = 1;
 let language = "English";
