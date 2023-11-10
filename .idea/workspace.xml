@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2e419fe6-17a3-4799-8da7-f5dd261152fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StoryCraft-UI/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/StoryCraft-UI/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/audio.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/audio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/keys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/speech_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/speech_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/stable_diffusion.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/stable_diffusion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +79,7 @@
       <workItem from="1699206098421" duration="1425000" />
       <workItem from="1699224342518" duration="1978000" />
       <workItem from="1699394981116" duration="630000" />
-      <workItem from="1699649398760" duration="1329000" />
+      <workItem from="1699649398760" duration="2746000" />
     </task>
     <servers />
   </component>
