@@ -16,10 +16,10 @@ def transcribe_file(speech_file: str) -> speech.RecognizeResponse:
     # )
 
     """Uncomment this if you want to use Google Cloud Storage"""
-    audio = speech.RecognitionAudio(uri="gs://sound_buckets/test.flac")
+    audio = speech.RecognitionAudio(uri="gs://sound_buckets/"+speech_file)
     print(audio)
     config = speech.RecognitionConfig(
-        encoding=speech.RecognitionConfig.AudioEncoding.FLAC,
+        encoding=speech.RecognitionConfig.AudioEncoding.ENCODING_UNSPECIFIED,
         sample_rate_hertz=48000,
         language_code="en-US",
     )
