@@ -1,4 +1,4 @@
-const BASE_URL = 'http://api.mystorycraft.studio/';
+const BASE_URL = 'https://api.mystorycraft.studio/';
 
 let slideIndex = 1;
 let language = "English";

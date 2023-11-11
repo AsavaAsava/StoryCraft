@@ -10,7 +10,7 @@ var flipbookEL = document.getElementById('flipbook');
 var moreAction = document.getElementById('moreOptions');
 let phrase = "";
 let pageIndex = 1;
-const BASE_URL = 'http://api.mystorycraft.studio/';
+const BASE_URL = 'https://api.mystorycraft.studio/';
 const SERVICE_KEY = 'C:\\Users\\Nathan\\Downloads\\rare-beacon-401223-6048a1c249af.json';
 let dataArray = [];
 let recorder;
