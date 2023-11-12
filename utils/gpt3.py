@@ -1,7 +1,7 @@
 import openai
 
 
-openai.api_key = ""
+openai.api_key = "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"
 
 def generate_with_prompt(prompt: str, temperature: float) -> str:
     """
