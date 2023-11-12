@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 const BASE_URL = 'http://68.183.208.56:5000/';
-=======
-const BASE_URL = 'api.mystorycraft.studio';
->>>>>>> e2fbfde506c8f8d7c8dcf31221c00fac14d6b212
 
 let slideIndex = 1;
 let language = "English";

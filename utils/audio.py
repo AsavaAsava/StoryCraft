@@ -27,11 +27,7 @@ def get_audio(story, audio_name):
     }
 
     audio_response = requests.post(speech_url, json=audio_data, headers=headers)
-<<<<<<< HEAD
     audio = r"story_narrations/" + audio_name + ".mp3"
-=======
-    audio = "./story_narrations/" + audio_name + ".mp3"
->>>>>>> e2fbfde506c8f8d7c8dcf31221c00fac14d6b212
     print(audio)
     with open(audio, 'wb') as f:
         for chunk in audio_response.iter_content(chunk_size=CHUNK_SIZE):
